@@ -9,7 +9,7 @@
 
 >First time I used **Google Fonts** in my project which was also a new thing for me to use.
 
-## **Time Take** ##
+## **Time Taken** ##
 >I took around 2 hours to learn CSS Positioning and extra around 4 hours to create this project.
 The whole amount of around **6 Hours** is invested of mine in this project.
 
@@ -17,11 +17,18 @@ The whole amount of around **6 Hours** is invested of mine in this project.
 ![Final Output](./project%201%20result.png)
 
 ## **Live Link** ##
-<a><button name="button" style = "
+<!-- <a><button name="button" style = "
 background-color: purple; 
 padding: 10px 20px;
 color: white;
 cursor: pointer;
 " 
-onclick="https://live-class-project-01-harvi.netlify.app/">Live Project 01</button></a>
+onclick="https://live-class-project-01-harvi.netlify.app/">Live Project 01</button></a> -->
 
+<a href="https://live-class-project-01-harvi.netlify.app/" 
+style = "
+background-color: purple; 
+padding: 10px 20px;
+color: white;
+cursor: pointer;
+" class="button big">Create Project</a>
