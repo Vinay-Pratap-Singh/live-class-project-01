@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+}
+
+.navbar-container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.navbar-container img{
+    margin: 0 80px;
+    width: 90px;
+}
+
+.list{
+    font-family: 'Orbitron';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40vw;
+    margin: 0 60px;
+    font-weight: 500;
+}
+
+.list li{
+    list-style: none;
+    font-size: 15px;
+}
+
+.list li:nth-child(3){
+    order: 1;
+}
+.list li:nth-child(2){
+    order: 2;
+}
+.list li:nth-child(4){
+    order: 3;
+}
+.list li:nth-child(5){
+    order: 4;
+}
+
+.list li:first-child{
+    font-size: 20px;
+    font-weight: 900;
+    border-bottom: 3px solid black;
+}
+
+.button-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    margin: 0 70px;
+}
+
+.search-icon svg{
+    width: 18px;
+    margin-right: 15px;
+}
+
+.nav-button{
+    font-family: Poppins;
+    color: #5e5e5e;
+    font-size: 1.1rem;
+    padding-top: 5px;
+    width: 130px;
+    height: 33px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* Designing the main body */
+.hero-container{
+    margin-top: 50px;
+    display: flex;
+}
+
+.square{
+    position: absolute;
+    z-index: -1;
+}
+
+.square img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 200px;
+    top: 190px;
+}
+
+.star{
+    position: absolute;
+    right: 80px;
+    top: 170px;
+}
+
+.star img{
+    width: 45px;
+    height: 45px;
+}
+
+.globe{
+    position: absolute;
+    left: 600px;
+}
+
+.globe img{
+    width: 45px;
+    height: 45px;
+}
+
+.hero-container div:nth-child(4) > img{
+    position: absolute;
+    width: 320px;
+    height: 400px;
+    left: 80px;
+    /* top: 162px; */
+}
+
+/* right container css */
+.hero-container-right{
+    position: absolute;
+    left: 480px;
+    top: 240px;
+}
+
+.hero-heading{
+    font-family: 'Orbitron';
+    font-size: 2.7rem;
+}
+
+.hero-description{
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 10px;
+    color: #5e5e5e;
+    margin: 30px 100px;
+}
+
+.hero-container-right div:nth-child(3){
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.hero-container-right div:nth-child(3) button{
+    font-family: 'Orbitron';
+    margin: 0 5px;
+}
+
+.button-email{
+    padding: 2px 15px;
+    border: 2px solid #5e5e5e;
+    border-radius: 8px;
+    color: #5e5e5e;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.button-join{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+}
+
+.contact-heading{
+    text-align: center;
+    color: #5e5e5e;
+    text-transform: capitalize;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons span{
+    margin: 10px 8px;
+}
+
+.icons span img{
+    width: 25px;
+    height: 25px;
+}
