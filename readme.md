@@ -17,18 +17,5 @@ The whole amount of around **6 Hours** is invested of mine in this project.
 ![Final Output](./project%201%20result.png)
 
 ## **Live Link** ##
-<!-- <a><button name="button" style = "
-background-color: purple; 
-padding: 10px 20px;
-color: white;
-cursor: pointer;
-" 
-onclick="https://live-class-project-01-harvi.netlify.app/">Live Project 01</button></a> -->
-
 <a href="https://live-class-project-01-harvi.netlify.app/" 
-style = "
-background-color: purple; 
-padding: 10px 20px;
-color: white;
-cursor: pointer;
-" class="button big">Create Project</a>
+class="button big"><img alt="Project Link" src="https://img.shields.io/badge/Project%20Link-Live%20Project%2001-brightgreen"></a>
